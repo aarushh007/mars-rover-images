@@ -54,7 +54,7 @@ function App() {
           <h1>Search for Curiosity Rover images</h1>
           <p>Click the calendar icon to choose date or type it in.</p>
           <p>(hint: The Rover only started taking photos at the start of 2013)</p>
-        <input className='form-control' id='date' type='date' max='2021-03-25' min='2013-01-01' />
+        <input className='form-control' id='date' type='date' max='2021-03-29' min='2013-01-01' />
         {wrongYear && <p>Rover did not take photos in this year</p>}
         <button className='btn btn-primary btn-lg' onClick={search}>Search</button>
         </div>
